@@ -76,7 +76,7 @@ nav ul {
 
 @media (max-width: 480px) {
     #header_container {
-        height: 145px;
+        height: 120px;
         display: block;
     }
 
@@ -89,5 +89,6 @@ nav ul {
     .social_media {
         width: 15%;
         margin-left: 80%;
+        display: none;
     }
 }

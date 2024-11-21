@@ -30,7 +30,7 @@ function Header() {
                 <a href="https://www.tiktok.com/@loonetaoficial" target="blank">
                     <PiTiktokLogoBold className="social_media_logo" id="tiktok_logo"/>
                 </a>
-                <a href="https://wa.me/5561994308631" target="_blank">
+                <a href="https://wa.me/5561994308631" target="blank">
                     <PiWhatsappLogo className="social_media_logo" id="phone_logo"/>
                 </a>
             </div>

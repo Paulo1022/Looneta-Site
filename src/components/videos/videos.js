@@ -13,32 +13,32 @@ function Videos() {
         <div id="video_component">
             <h1 id="video_title">Veja as principais localidades para ver o Looneta!</h1>
             <div id="videos_container">
-                <div className="video_cards" id="video1">
+                <div className="video_cards">
                     <video controls className="video">
                         <source src={Video1}/>
                     </video>
                     <a href="https://www.instagram.com/p/CsmZaUPPum3/" target="blank">
                         <img src={Logo1} className="videos_logo" alt=""/>                        
                     </a>
-                    <h3 className="logo_title" id="logo_name1">Mr Hoppy</h3>
+                    <h3 className="logo_title logo_name">Mr Hoppy</h3>
                 </div>
-                <div className="video_cards" id="video2">
+                <div className="video_cards">
                     <video controls className="video">
                         <source src={Video2}/>
                     </video>
                     <a href="https://www.instagram.com/p/CrbukQuAG1z/" target="blank">
                         <img src={Logo2} className="videos_logo" alt=""/>                        
                     </a>
-                    <h3 className="logo_title" id="logo_name2">Porks</h3>
+                    <h3 className="logo_title logo_name">Porks</h3>
                 </div>
-                <div className="video_cards" id="video3">
+                <div className="video_cards">
                     <video controls className="video">
                         <source src={Video3}/>
                     </video>
                     <a href="https://www.instagram.com/p/CrMRw_Bg9Ra/" target="blank">
                         <img src={Logo3} className="videos_logo" alt=""/>
                     </a>
-                    <h3 className="logo_title" id="logo_name3">Code61 Bar</h3>
+                    <h3 className="logo_title logo_name">Code61 Bar</h3>
                 </div>
             </div>
         </div>

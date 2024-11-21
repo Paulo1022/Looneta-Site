@@ -17,6 +17,7 @@ function Integrantes() {
                     Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. 
                     Leite de capivaris, leite de mula manquis sem cabeça."
                 image={FotoHaroldo}
+                direction="row"
             />
             <Musicos
                 name="Vinicius"
@@ -26,6 +27,7 @@ function Integrantes() {
                     Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. 
                     Sed non consequat odio. Leite de capivaris, leite de mula manquis sem cabeça."
                 image={FotoVini}
+                direction="row-reverse"
             />
             <Footer />
         </>

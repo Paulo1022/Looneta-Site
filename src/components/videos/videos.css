@@ -7,8 +7,8 @@
 
 #video_component {
     width: 100%;
-    padding-top: 30px;
-    background-color: white;
+    padding: 60px 0;
+    background-color: #212529;
 }
 
 #video_title {
@@ -17,7 +17,8 @@
     padding-right: 2%;
     background-color: rgb(182, 182, 182);
     font-family: "Outfit";
-    border-top-right-radius: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #videos_container {
@@ -29,25 +30,13 @@
 .video_cards {
     width: 100%;
     height: auto;
-    border-radius: 15px;
-}
-
-#video1 {
-    background-color: black;
-}
-
-#video2 {
-    background-color: white;
-}
-
-#video3 {
-    background-color: black;
 }
 
 .video {
     width: 90%;
     margin-left: 5%;
     margin-top: 15px;
+    border: 4px solid black;
     border-radius: 15px;
 }
 
@@ -65,11 +54,7 @@
     font-family: "Outfit";
 }
 
-#logo_name1 {
-    color: orangered;
-}
-
-#logo_name3 {
+.logo_name {
     color: orangered;
 }
 

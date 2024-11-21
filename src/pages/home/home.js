@@ -4,6 +4,7 @@ import Banner from "../../components/banner/banner";
 import Podcast from "../../components/podcast/podcast";
 import Videos from "../../components/videos/videos";
 import Footer from "../../components/footer/footer";
+import Shows from "../../components/shows/shows";
 
 function Home() {
 
@@ -11,8 +12,9 @@ function Home() {
         <>
             <Header />
             <Banner />
-            <Podcast />
+            <Shows />
             <Videos />
+            <Podcast />
             <Footer />
         </>
     )

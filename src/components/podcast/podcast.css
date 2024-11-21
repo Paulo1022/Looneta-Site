@@ -7,10 +7,11 @@
 
 #podcast_container {
     width: 100%;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: orangered;
+    background-color: black;
 }
 
 #video_container {
@@ -36,6 +37,7 @@
 
 .podcast_image {
     width: 454px;
+    border-radius: 10px 0 0 10px;
 }
 
 @media (max-width: 1024px) {
